@@ -1,148 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-        <!-- icon fontawesome -->
-        <link rel="stylesheet" href="./css/all.min.css">
-        <!-- bootstrap file -->
-        <link rel="stylesheet" href="./css/bootstrap.min.css">
-    
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    
-        <!-- my css file -->
-        <link rel="stylesheet" href="./css/login.css">
-</head>
-<body>
-        <!-- start navbar -->
-<header class="contain-header">
-    <div class="logo">
+    <!-- icon fontawesome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- bootstrap file -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    /> -->
+
+    <!-- my css file -->
+    <link rel="stylesheet" href="./css/login.css" />
+  </head>
+  <body>
+    <!-- start navbar -->
+    <header class="contain-header">
+      <div class="logo">
         <a href="./index.html">
-            <h2>TCare</h2>
+          <h2>TCare</h2>
         </a>
-    </div>
-    <ul class="ul-nav">
+      </div>
+      <ul class="ul-nav">
         <li><a href="./index.html">Home</a></li>
         <li><a href="./index.html">About</a></li>
         <li><a href="./index.html">Services</a></li>
         <li><a href="./index.html">Contact Us</a></li>
-    </ul>
-    <div class="login-all">
+      </ul>
+      <div class="login-all">
         <a class="login" href="http://"> Login</a>
         <a class="login-2" href="./loginarabic.html">En</a>
-    </div>
-</header>
-<!-- end navbar -->
+      </div>
+    </header>
+    <!-- end navbar -->
 
-<!-- start OfCanvs -->
+    <!-- start OfCanvs -->
 
-    <button class="btn btn-primary btn-ofcanvs" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fas fa-bars"></i></button>
+    <button
+      class="btn btn-primary btn-ofcanvs"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasRight"
+      aria-controls="offcanvasRight"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
 
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-    <div class="offcanvas-header">
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header">
         <h5 id="offcanvasRightLabel"></h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
         <div class="logo">
-            <a href="./index.html">
-                <h2>TCare</h2>
-            </a>
+          <a href="./index.html">
+            <h2>TCare</h2>
+          </a>
         </div>
         <ul class="ul-Ofcanvs">
-            <li><a href="http://">Home</a></li>
-            <li><a href="http://">About</a></li>
-            <li><a href="http://">Services</a></li>
-            <li><a href="http://">Contact Us</a></li>
+          <li><a href="http://">Home</a></li>
+          <li><a href="http://">About</a></li>
+          <li><a href="http://">Services</a></li>
+          <li><a href="http://">Contact Us</a></li>
         </ul>
         <div class="login-Ofcanvs">
-            <a class="login" href="./login.html"> Login</a>
-            <a class="login-2" href="./loginarabic.html">En</a>
+          <a class="login" href="./login.html"> Login</a>
+          <a class="login-2" href="./loginarabic.html">En</a>
         </div>
+      </div>
     </div>
-</div>
 
-<!-- end OfCanvs -->
+    <!-- end OfCanvs -->
 
-
-<!-- end navbar-All -->
-
+    <!-- end navbar-All -->
 
     <!-- start Home bg-color -->
 
     <div class="enwan-login">
-        <h1>Login</h1>
+      <h1>Login</h1>
     </div>
 
     <div class="Bg-color">
-        <div class="container">
-            <form>
-                <div class="mb-3">
-                  <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
-                  <input type="text" required placeholder="Enter Your Name" class="form-control user" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
-                </div>
-                <div class="mb-3">
-                  <!-- <label for="exampleInputPassword1" class="form-label">Password</label> -->
-                  <input type="password" required placeholder="Enter Your Password" class="form-control pass" id="exampleInputPassword1">
-                </div>
-                <!-- <div class="mb-3 form-check">
+      <div class="container">
+        <form>
+          <div class="mb-3">
+            <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
+            <input
+              type="text"
+              required
+              placeholder="Enter Your Name"
+              class="form-control user"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+          </div>
+          <div class="mb-3">
+            <!-- <label for="exampleInputPassword1" class="form-label">Password</label> -->
+            <input
+              type="password"
+              required
+              placeholder="Enter Your Password"
+              class="form-control pass"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <!-- <div class="mb-3 form-check">
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
                   <label class="form-check-label" for="exampleCheck1">Check me out</label>
                 </div> -->
-                <button type="submit" class="btn btn-primary">Send</button>
-              </form>
-        </div>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      </div>
     </div>
-    
-        <!-- end Home bg-color -->
 
+    <!-- end Home bg-color -->
 
-<!-- start footer -->
+    <!-- start footer -->
 
-<footer>
-    <div class="container foot-all">
+    <footer>
+      <div class="container foot-all">
         <div class="row">
-            <div class="col-md-3">
-                <div class="text-Footer">
-                    <a href="./index.html">
-                        <h2>TCare</h2>
-                    </a>
-                </div>
+          <div class="col-md-3">
+            <div class="text-Footer">
+              <a href="./index.html">
+                <h2>TCare</h2>
+              </a>
             </div>
-            <div class="col-md-5">
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./index.html">About</a></li>
-                    <li><a href="./index.html">Services</a></li>
-                    <li><a href="./index.html">Contact Us</a></li>
-                </ul>
-                <div class="row">
-                    <div class="col-md-12 p-fot">
-                        <p class="p-footer">TCare salons © 2019 - 2021</p>
-                    </div>
-                </div>
+          </div>
+          <div class="col-md-5">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./index.html">About</a></li>
+              <li><a href="./index.html">Services</a></li>
+              <li><a href="./index.html">Contact Us</a></li>
+            </ul>
+            <div class="row">
+              <div class="col-md-12 p-fot">
+                <p class="p-footer">TCare salons © 2019 - 2021</p>
+              </div>
             </div>
-            <div class="col-md-4">
-                <div class="logo-all">
-                    <h4>Find us</h4>
-                    <a href="http://facebook.com"><i class="fab fa-facebook-square"></i></a>
-                    <a href="http://instagram.com"><i class="fab fa-instagram-square"></i></a>
-                    <a href="http://twitter.com"><i class="fab fa-twitter"></i></a>    
-                </div>
+          </div>
+          <div class="col-md-4">
+            <div class="logo-all">
+              <h4>Find us</h4>
+              <a href="http://facebook.com"
+                ><i class="fab fa-facebook-square"></i
+              ></a>
+              <a href="http://instagram.com"
+                ><i class="fab fa-instagram-square"></i
+              ></a>
+              <a href="http://twitter.com"><i class="fab fa-twitter"></i></a>
             </div>
+          </div>
         </div>
-    </div>
-</footer>
-<!-- end footer -->
-
+      </div>
+    </footer>
+    <!-- end footer -->
 
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/popper.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script> -->
     <script src="./js/login.js"></script>
-</body>
+  </body>
 </html>
